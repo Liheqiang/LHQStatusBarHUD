@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7428601C85E8F5000497AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74285F1C85E8F5000497AA /* main.m */; };
+		DB7428631C85E8F5000497AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7428621C85E8F5000497AA /* AppDelegate.m */; };
+		DB7428661C85E8F5000497AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7428651C85E8F5000497AA /* ViewController.m */; };
+		DB7428691C85E8F5000497AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7428671C85E8F5000497AA /* Main.storyboard */; };
+		DB74286B1C85E8F5000497AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB74286A1C85E8F5000497AA /* Assets.xcassets */; };
+		DB74286E1C85E8F5000497AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB74286C1C85E8F5000497AA /* LaunchScreen.storyboard */; };
+		DB7428C21C85EBDB000497AA /* LHQStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB7428BF1C85EBDB000497AA /* LHQStatusBarHUD.bundle */; };
+		DB7428C31C85EBDB000497AA /* LHQStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7428C11C85EBDB000497AA /* LHQStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB74285B1C85E8F5000497AA /* LHQStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHQStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB74285F1C85E8F5000497AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7428611C85E8F5000497AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB7428621C85E8F5000497AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB7428641C85E8F5000497AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB7428651C85E8F5000497AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB7428681C85E8F5000497AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB74286A1C85E8F5000497AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB74286D1C85E8F5000497AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB74286F1C85E8F5000497AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7428BF1C85EBDB000497AA /* LHQStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LHQStatusBarHUD.bundle; sourceTree = "<group>"; };
+		DB7428C01C85EBDB000497AA /* LHQStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHQStatusBarHUD.h; sourceTree = "<group>"; };
+		DB7428C11C85EBDB000497AA /* LHQStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHQStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7428581C85E8F5000497AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7428521C85E8F5000497AA = {
+			isa = PBXGroup;
+			children = (
+				DB74285D1C85E8F5000497AA /* LHQStatusBarHUDExample */,
+				DB74285C1C85E8F5000497AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB74285C1C85E8F5000497AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB74285B1C85E8F5000497AA /* LHQStatusBarHUDExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB74285D1C85E8F5000497AA /* LHQStatusBarHUDExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB7428BE1C85EBDB000497AA /* LHQStatusBarHUD */,
+				DB7428611C85E8F5000497AA /* AppDelegate.h */,
+				DB7428621C85E8F5000497AA /* AppDelegate.m */,
+				DB7428641C85E8F5000497AA /* ViewController.h */,
+				DB7428651C85E8F5000497AA /* ViewController.m */,
+				DB7428671C85E8F5000497AA /* Main.storyboard */,
+				DB74286A1C85E8F5000497AA /* Assets.xcassets */,
+				DB74286C1C85E8F5000497AA /* LaunchScreen.storyboard */,
+				DB74286F1C85E8F5000497AA /* Info.plist */,
+				DB74285E1C85E8F5000497AA /* Supporting Files */,
+			);
+			path = LHQStatusBarHUDExample;
+			sourceTree = "<group>";
+		};
+		DB74285E1C85E8F5000497AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB74285F1C85E8F5000497AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7428BE1C85EBDB000497AA /* LHQStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DB7428BF1C85EBDB000497AA /* LHQStatusBarHUD.bundle */,
+				DB7428C01C85EBDB000497AA /* LHQStatusBarHUD.h */,
+				DB7428C11C85EBDB000497AA /* LHQStatusBarHUD.m */,
+			);
+			name = LHQStatusBarHUD;
+			path = ../../LHQStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB74285A1C85E8F5000497AA /* LHQStatusBarHUDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7428721C85E8F5000497AA /* Build configuration list for PBXNativeTarget "LHQStatusBarHUDExample" */;
+			buildPhases = (
+				DB7428571C85E8F5000497AA /* Sources */,
+				DB7428581C85E8F5000497AA /* Frameworks */,
+				DB7428591C85E8F5000497AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHQStatusBarHUDExample;
+			productName = LHQStatusBarHUDExample;
+			productReference = DB74285B1C85E8F5000497AA /* LHQStatusBarHUDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7428531C85E8F5000497AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HqLee;
+				TargetAttributes = {
+					DB74285A1C85E8F5000497AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DB7428561C85E8F5000497AA /* Build configuration list for PBXProject "LHQStatusBarHUDExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7428521C85E8F5000497AA;
+			productRefGroup = DB74285C1C85E8F5000497AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB74285A1C85E8F5000497AA /* LHQStatusBarHUDExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7428591C85E8F5000497AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB74286E1C85E8F5000497AA /* LaunchScreen.storyboard in Resources */,
+				DB7428C21C85EBDB000497AA /* LHQStatusBarHUD.bundle in Resources */,
+				DB74286B1C85E8F5000497AA /* Assets.xcassets in Resources */,
+				DB7428691C85E8F5000497AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7428571C85E8F5000497AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7428661C85E8F5000497AA /* ViewController.m in Sources */,
+				DB7428631C85E8F5000497AA /* AppDelegate.m in Sources */,
+				DB7428601C85E8F5000497AA /* main.m in Sources */,
+				DB7428C31C85EBDB000497AA /* LHQStatusBarHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB7428671C85E8F5000497AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7428681C85E8F5000497AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB74286C1C85E8F5000497AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB74286D1C85E8F5000497AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7428701C85E8F5000497AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7428711C85E8F5000497AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7428731C85E8F5000497AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHQStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.com.LHQStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7428741C85E8F5000497AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHQStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.com.LHQStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7428561C85E8F5000497AA /* Build configuration list for PBXProject "LHQStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7428701C85E8F5000497AA /* Debug */,
+				DB7428711C85E8F5000497AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7428721C85E8F5000497AA /* Build configuration list for PBXNativeTarget "LHQStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7428731C85E8F5000497AA /* Debug */,
+				DB7428741C85E8F5000497AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7428531C85E8F5000497AA /* Project object */;
+}
